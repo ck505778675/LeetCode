@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{11D6CD80-6D14-4D46-B673-DE8B7403E9EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode(1-5)", "LeetCode(1-5)", "{F3CFFA0F-6084-462E-B4B0-D72D0F98A582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode1-5", "src\LeetCode1-5\LeetCode1-5.csproj", "{1930D62C-BD82-4559-A9CB-2ED39DB22AD7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1930D62C-BD82-4559-A9CB-2ED39DB22AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1930D62C-BD82-4559-A9CB-2ED39DB22AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1930D62C-BD82-4559-A9CB-2ED39DB22AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1930D62C-BD82-4559-A9CB-2ED39DB22AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3CFFA0F-6084-462E-B4B0-D72D0F98A582} = {11D6CD80-6D14-4D46-B673-DE8B7403E9EB}
+		{1930D62C-BD82-4559-A9CB-2ED39DB22AD7} = {F3CFFA0F-6084-462E-B4B0-D72D0F98A582}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {193F2C77-3BF6-460C-B515-96E17757AF0D}

@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{11D6CD80-6D1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode(1-5)", "LeetCode(1-5)", "{F3CFFA0F-6084-462E-B4B0-D72D0F98A582}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode1-5", "src\LeetCode1-5\LeetCode1-5.csproj", "{1930D62C-BD82-4559-A9CB-2ED39DB22AD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode1_5", "src\LeetCode1-5\LeetCode1_5.csproj", "{1930D62C-BD82-4559-A9CB-2ED39DB22AD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

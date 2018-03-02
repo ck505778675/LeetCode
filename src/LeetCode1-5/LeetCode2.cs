@@ -11,7 +11,7 @@ namespace LeetCode1_5
             var newNode = new ListNode((l1.val + l2.val) % 10);
             var node = newNode;
             var temp = (l1.val + l2.val) / 10 > 0 ? 1 : 0;
-            while (l1.next != null || l2.next != null)
+            while (l1.next != null || l2.next != null || temp>0)
             {
                 l1 = l1.next ?? new ListNode(0);
                 l2 = l2.next ?? new ListNode(0);
@@ -20,11 +20,7 @@ namespace LeetCode1_5
                 temp = (l1.val + l2.val + temp) / 10 > 0 ? 1 : 0;
 
             }
-            if (temp > 0)
-            {
-                node.next = new ListNode(1);
-
-            }
+           
             return newNode;
         }
     }
